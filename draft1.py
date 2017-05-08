@@ -1,5 +1,7 @@
-def index_power(a, b):
-    if len(a) > b:
-        print((int(b[a])) ** a)
-    else:
-        print("-1")
+from random import randint
+
+dice1 = randint(1,6)
+square_dice1 = []
+for i in range (3):
+    square_dice1.append(dice1)
+print(square_dice1)

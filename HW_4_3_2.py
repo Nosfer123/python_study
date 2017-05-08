@@ -1,5 +1,4 @@
-text = input('Write your number: ')
-text = (int(text))
+text = int(input('Write your number: '))
 
 def text_plus1():
     global text
