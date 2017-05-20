@@ -13,3 +13,4 @@ except NameError as err:
     print(err)
 
 print(scream())
+print('o')

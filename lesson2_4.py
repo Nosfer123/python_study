@@ -1,7 +1,7 @@
 animals = ['cat', 'dog', 'horse']
 
 for animal in animals:
-    print ((animal), len(animal))
+    print((animal), len(animal))
 
 letters = 'abcdefrtya'
 
