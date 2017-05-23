@@ -1,4 +1,5 @@
 import random as random_number
+import numpy
 
 N = 500000
 M = 0
@@ -39,7 +40,7 @@ for dummy_i in range(N):
 pp = float(M)/N
 print('Probability:', pp)
 
-import numpy
+
 
 eyes = random.random_integers(1, 6, (N, ndice))
 compare = eyes == 6
